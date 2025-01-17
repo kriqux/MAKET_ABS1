@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAKET_ABS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: justify;
+        margin: 20px;
+      }
+      .container {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .image-container {
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        height: 400px;
+      }
+      .image-container img {
+        position: absolute;
+        width: 150px;
+        transition: all 0.3s ease-in-out;
+      }
+      #biohazard {
+        left: 40px;
+        top: 60px;
+        z-index: 1;
+      }
+      #man-woman {
+        left: 190px;
+        top: 60px;
+        z-index: 1;
+      }
+      #yin-yang {
+        left: 120px;
+        top: 200px;
+        z-index: 1;
+      }
+      #no-smoking {
+        left: 120px;
+        top: 120px;
+        z-index: 2;
+      }
+
+      .image-container img:hover {
+        z-index: 3 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Я к вам пишу — чего же боле? Что я могу еще сказать? Теперь, я знаю, в
+      вашей воле Меня презреньем наказать. Но вы, к моей несчастной доле Хоть
+      каплю жалости храня, Вы не оставите меня. Сначала я молчать хотела;
+      Поверьте: моего стыда Вы не узнали б никогда, Когда б надежду я имела Хоть
+      редко, хоть в неделю раз В деревне нашей видеть вас.
+    </p>
+
+    <div class="container">
+      <div class="image-container">
+        <img
+          id="biohazard"
+          src="https://i.ibb.co/5s8pMBg/biohazard.png"
+          alt="Biohazard"
+        />
+        <img
+          id="man-woman"
+          src="https://i.ibb.co/zQ1WM8w/Man-and-woman.png"
+          alt="Man and Woman"
+        />
+        <img
+          id="yin-yang"
+          src="https://i.ibb.co/tMkd8wz/Yin-and-Yang.png"
+          alt="Yin and Yang"
+        />
+        <img
+          id="no-smoking"
+          src="https://i.ibb.co/CMyFs2Q/No-smoking.pngNo_smoking.png"
+          alt="No Smoking"
+        />
+      </div>
+    </div>
+
+    <p>
+      Чтоб только слышать ваши речи, Вам слово молвить, и потом Все думать,
+      думать об одном И день и ночь до новой встречи.
+    </p>
+  </body>
+</html>
